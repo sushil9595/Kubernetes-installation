@@ -72,6 +72,6 @@ systemctl restart kubelet
 
 systemctl enable kubelet
 
-
+kubectl taint node mymasternode node-role.kubernetes.io/master:NoSchedule-
 
 
